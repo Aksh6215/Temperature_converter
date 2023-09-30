@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('./eclipse-1492818.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.container{
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    max-width: 450px;
+    min-width: 350px;
+}
+
+.primary{
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.temp{
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input{
+    width: 220px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: right;
+    padding: 5px;
+    outline: none;
+    background: transparent;
+    border-color: gainsboro;
+    color: seashell;
+    font-size: 18px;
+}
+
+input::placeholder{
+    color: gray;
+}
